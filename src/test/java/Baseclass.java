@@ -12,6 +12,7 @@ public class Baseclass {
 	}
 
 	public void fillText(WebElement e,String input) {
+		System.out.println("Hai");
 		e.sendKeys(input);
 
 	}
